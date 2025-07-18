@@ -40,8 +40,8 @@ Follow these steps to run the application on your local machine.
 
 ### **1\. Clone the Repository**
 
-git clone \<your-repository-url\>  
-cd \<your-repository-directory\>
+git clone https://github.com/ZidanMau24/Product_Intelegent_Agent
+cd /Product_Intelegent_Agent
 
 ### **2\. Create a Virtual Environment**
 
