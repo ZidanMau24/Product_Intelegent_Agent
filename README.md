@@ -43,15 +43,15 @@ Follow these steps to run the application on your local machine.
 git clone https://github.com/ZidanMau24/Product_Intelegent_Agent
 
 
-### **2\. Create a Virtual Environment**
+### **2. Create a Virtual Environment**
 
 It's highly recommended to use a virtual environment to manage dependencies.
 
-\# For Windows  
+# For Windows  
 python \-m venv venv  
 venv\\Scripts\\activate
 
-\# For macOS/Linux  
+# For macOS/Linux  
 python3 \-m venv venv  
 source venv/bin/activate
 
