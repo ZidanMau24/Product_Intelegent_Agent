@@ -40,7 +40,7 @@ Follow these steps to run the application on your local machine.
 
 ### **1\. Clone the Repository**
 
-git clone https://github.com/ZidanMau24/Product_Intelegent_Agent
+```git clone https://github.com/ZidanMau24/Product_Intelegent_Agent```
 
 
 ### **2. Create a Virtual Environment**
@@ -48,18 +48,18 @@ git clone https://github.com/ZidanMau24/Product_Intelegent_Agent
 It's highly recommended to use a virtual environment to manage dependencies.
 
 # For Windows  
-python \-m venv venv  
-venv\\Scripts\\activate
+``` python \-m venv venv ``` 
+```venv\\Scripts\\activate ```
 
 # For macOS/Linux  
-python3 \-m venv venv  
-source venv/bin/activate
+```python3 \-m venv venv```  
+```source venv/bin/activate```
 
 ### **3\. Install Dependencies**
 
 Install all the required Python packages from the requirements.txt file.
 
-pip install \-r requirements.txt
+```pip install \-r requirements.txt```
 
 ### **4\. Configure API Keys**
 
@@ -67,8 +67,8 @@ The application requires API keys for Google AI (Gemini) and Firecrawl.
 
 Create a file named .env in the root of your project directory and add your keys in the following format:
 
-GOOGLE\_API\_KEY="your\_google\_ai\_api\_key\_here"  
-FIRECRAWL\_API\_KEY="your\_firecrawl\_api\_key\_here"
+```GOOGLE\_API\_KEY="your\_google\_ai\_api\_key\_here"```  
+```FIRECRAWL\_API\_KEY="your\_firecrawl\_api\_key\_here"```
 
 Alternatively, you can enter the keys directly into the application's sidebar when you run it.
 
@@ -76,6 +76,6 @@ Alternatively, you can enter the keys directly into the application's sidebar wh
 
 Once the setup is complete, you can launch the Streamlit application with the following command:
 
-streamlit run product\_launch\_intelligence\_agent.py
+```streamlit run product\_launch\_intelligence\_agent.py```
 
 The application will open in your default web browser, ready for you to start analyzing\!
