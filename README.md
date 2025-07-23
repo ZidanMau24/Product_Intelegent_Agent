@@ -22,3 +22,5 @@ A sophisticated multi-agent AI system for competitive product intelligence analy
    ```bash
    git clone https://github.com/YOUR_USERNAME/product-launch-intelligence-agent.git
    cd product-launch-intelligence-agent
+## DOCS
+ *[Setup Guide](docs/setup_guide.md)*
